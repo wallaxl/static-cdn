@@ -1,0 +1,21 @@
+{
+  "name": "static-cdn",
+  "version": "1.0.0",
+  "description": "a static web server by node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node static-cdn /var/www 8080"
+  },
+  "keywords": [
+    "static",
+    "webserver",
+    "web",
+    "server"
+  ],
+  "dependencies": {
+    "mimez": "1.0.0",
+    "cli2obj": "1.0.0"
+  },
+  "author": "wallax",
+  "license": "GPL-3.0"
+}
